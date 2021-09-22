@@ -1,20 +1,4 @@
-<?php
 
-    session_start();
-
-    if(!isset($_SESSION['usuario'])){
-        echo ' 
-        <script>
-            alert("Inicia sesion");
-            window.location = "../index.php";
-         </script>
-        ';
-
-        session_destroy();
-        die();
-    }
-
-?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -116,7 +100,7 @@
     <audio id="C5" src="assets/NotasMarimba/C5.mp3"></audio>
 
 
-    <script src="./assets/js/script01.js"></script>
+
 </body>
 
 </html>
